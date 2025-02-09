@@ -23,7 +23,7 @@ int main() {
                         printf("*");
                         break;
                     } else {
-                        printf(" ");
+                        printf("");
                     }
                 }
             }
