@@ -15,7 +15,13 @@ int main() {
             }else if (i==n) {
                 printf("*");
             }else{
-                printf(" ");
+                for (int k = 1;k<=n;k++){
+                    if (j==1) || (j==n){
+                        printf("*");
+                    } else{
+                        printf(" ");
+                    }
+                }
             }
         }
         printf("\n");
