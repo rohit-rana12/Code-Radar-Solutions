@@ -19,10 +19,10 @@ int main() {
     }
 
     for (int x=n-1;x>=1;x--){
-        for (int y=n;y>1;y--){
+        for (int y=n;y>x;y--){
             print(" ");
         }
-        for (int z = 0;z<(2*i-1);z++){
+        for (int z = 0;z<(2*x-1);z++){
             printf("*");
         }
         printf("\n");
