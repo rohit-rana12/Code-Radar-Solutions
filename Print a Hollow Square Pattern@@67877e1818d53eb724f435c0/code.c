@@ -18,7 +18,7 @@ int main() {
                 for (int k = 1;k<=n;k++){
                     if (j==1) || (j==n){
                         printf("*");
-                    } else{
+                    } else {
                         printf(" ");
                     }
                 }
