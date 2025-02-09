@@ -19,11 +19,11 @@ int main() {
     }
     for (int i=n-1;i>=1;i--){
         for (int j=n;j>1;j--){
-            print("-");
+            print(" ");
         }
-        // for(int k = 0;k<(2*i-1);k++){
-        //     printf("*");
-        // }
+        for(int k = 0;k<(2*i-1);k++){
+            printf("*");
+        }
         printf("\n");
     }
     return 0;
