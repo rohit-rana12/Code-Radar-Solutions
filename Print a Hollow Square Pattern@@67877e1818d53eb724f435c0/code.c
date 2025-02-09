@@ -18,8 +18,10 @@ int main() {
                 for (int k = 1;k<=n;k++){
                     if (j==1){
                         printf("*");
+                        break;
                     } else if (j==n){
                         printf("*");
+                        break;
                     } else {
                         printf(" ");
                     }
