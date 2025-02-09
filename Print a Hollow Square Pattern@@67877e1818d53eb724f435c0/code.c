@@ -15,7 +15,7 @@ int main() {
             }else if (i==n) {
                 printf("*");
             }else{
-                for (int k = 1;k<=n;k++){
+                for (int k = 1;k<=j;k++){
                     if (j==1){
                         printf("*");
                         break;
