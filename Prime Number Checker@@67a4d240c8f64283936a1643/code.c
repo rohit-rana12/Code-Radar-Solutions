@@ -9,8 +9,8 @@ int isPrime(int n){
     }
 
     if count==2{
-        return 1;
+        return true;
     }else{
-        return 0;
+        return false;
     }
 }
