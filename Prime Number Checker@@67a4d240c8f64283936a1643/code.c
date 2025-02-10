@@ -7,6 +7,7 @@ int isPrime(int n){
             count++;
         }
     }
+    
     if count==2{
         return 1;
     }else{
