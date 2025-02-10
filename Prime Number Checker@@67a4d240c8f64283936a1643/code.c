@@ -7,13 +7,10 @@ int isPrime(int n){
             count++;
         }
     }
-    
+
     if count==2{
         return 1;
     }else{
         return 0;
     }
-}
-int main() {
-    return 0;
 }
