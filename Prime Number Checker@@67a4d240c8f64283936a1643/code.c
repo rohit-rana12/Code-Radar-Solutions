@@ -8,14 +8,15 @@ int isPrime(int n){
         }
     }
 
-    if count==2{
-        return true;
-    }else{
-        return false;
-    }
+    return count;
 }
 
 int main(){
     int num;
     scanf("%d",&num);
+    if(isPrime(num)==2){
+        printf("Prime");
+    }else{
+        printf("Not Prime");
+    }
 }
