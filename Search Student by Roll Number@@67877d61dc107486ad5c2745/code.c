@@ -31,15 +31,9 @@ void searchStudent(Student *students, int n, int rollNumber) {
 int main() {
     int n, rollNumber;
     Student students[MAX_STUDENTS];
-
-
     scanf("%d", &n);
-
     inputStudentDetails(students, n);
-
     scanf("%d", &rollNumber);
-
     searchStudent(students, n, rollNumber);
-
     return 0;
 }
