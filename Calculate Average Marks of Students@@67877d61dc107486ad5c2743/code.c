@@ -2,14 +2,14 @@
 
 int main() {
     int n; // Number of students
-    printf("Enter the number of students: ");
+    printf("");
     scanf("%d", &n);
 
     int rollNumber;
     char name[50];
     float marks, totalMarks = 0.0;
 
-    printf("Enter roll number, name, and marks separated by space:\n");
+    printf("");
 
     for (int i = 0; i < n; i++) {
         scanf("%d %s %f", &rollNumber, name, &marks);
